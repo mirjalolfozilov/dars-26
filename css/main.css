@@ -1,0 +1,52 @@
+.d-flex {
+    gap: 50px;
+}
+
+.mt-4 {
+    max-width: 1400px;
+    width: 100%;
+    background-color: #0d6efd;
+    color: antiquewhite;
+    border-style: none;
+}
+
+.left {
+    max-width: 500px;
+    width: 100%;
+}
+
+.card-link {
+    border: 1px #0d6efd solid;
+    padding: 10px;
+}
+
+.star {
+    width: 25px;
+    height: 25px;
+}
+
+.rating {
+    margin-left: -45px;
+}
+
+.btn {
+    background-color: red;
+    border-style: none;
+}
+
+.btn2 {
+    background-color: #fff;
+    color: #0d6efd;
+    border: 1px solid #0d6efd;
+}
+
+.btn2:hover {
+    background-color: #0d6efd;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 0.5s;
+}
+
+.card-header {
+    background-color: #aac2e5;
+}

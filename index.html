@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+
+<body>
+    <h1 class="text-center">Movies Catalog</h1>
+    <div class="d-flex container">
+
+        <div class="left">
+            <div class="mb-2">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="ave">
+            </div>
+            <div class="mb-2">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <input type="number" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="5"></input>
+            </div>
+            <br>
+            <select class="form-select" aria-label="Default select example">
+                      <option selected>All</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                </select>
+            <br>
+            <select class="form-select" aria-label="Default select example">
+                  <option selected>Rating(high to low)</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+            <button class=" btn btn2 mt-4">Search</button>
+
+            <h2 class="mt-3">Bookmarked movies</h2>
+            <div class="card w-100">
+
+                <div class="card-body">
+                    <h5 class="card-title">Avengers: Infinity War</h5>
+
+                    <a href="#" class="btn btn-primary">Remove</a>
+                </div>
+            </div>
+            <div class="card w-100">
+                <div class="card-body">
+                    <h5 class="card-title">The avengers</h5>
+
+                    <a href="#" class="btn btn-primary">Remove</a>
+                </div>
+            </div>
+            <div class="card w-100">
+                <div class="card-body">
+                    <h5 class="card-title">12 Years a Slave</h5>
+
+                    <a href="#" class="btn  btn-primary">Remove</a>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="card">
+                <h5 class="card-header">Search results:39</h5>
+                <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit</h5>
+
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx9dqvIq0snUwPW9LXwqKaqbkL14WW195Enw&usqp=CAU" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Avengers: Infinity War</h5>
+                        <p class="card-text">Year: 2018</p>
+                        <div class="d-flex align-center">
+                            <img class="star" src="./images/star.jpg" alt="">
+                            <p class="rating">8.7</p>
+                        </div>
+                        <div class="card-wrapper">
+                            <a href="#" class="card-link  btn btn2">Watch trailer</a>
+                            <a href="#" class="card-link  btn btn2">More info</a>
+                            <a href="#" class="card-link  btn btn2">Bookmark</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREjhAcGIzTaqbyKY9Y6vHhAAkgroJM0tSGzg&usqp=CAU" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">The avengers</h5>
+                        <p class="card-text">Year: 2012</p>
+                        <div class="d-flex align-center">
+                            <img class="star" src="./images/star.jpg" alt="">
+                            <p class="rating">8.1</p>
+                        </div>
+                        <a href="#" class="card-link btn btn2">Watch trailer</a>
+                        <a href="#" class="card-link btn btn2">More info</a>
+                        <a href="#" class="card-link btn btn2">Bookmark</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-3">
+                <button class="btn btn2 btn-primary" type="submit">1</button>
+                <button class="btn btn2 btn-primary" type="submit">2</button>
+                <button class="btn btn2 btn-primary" type="submit">3</button>
+                <button class="btn btn2 btn-primary" type="submit">4</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
